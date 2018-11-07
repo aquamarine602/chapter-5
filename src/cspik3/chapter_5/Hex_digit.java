@@ -11,7 +11,7 @@ public class Hex_digit {
 		String hex_string = input.nextLine();
     
 		if (hex_string.length() != 1) {
-			out.println("You must enter exactly one character.")
+			out.println("You must enter exactly one character.");
 			System.exit(1);
 		}
     
@@ -24,7 +24,7 @@ public class Hex_digit {
 			out.println("The decimal value for hex digit " + ch + " is " + ch);
     
 		} else {	
-			out.println(ch + " is invalid input.")
+			out.println(ch + " is invalid input.");
       
 		}
   
